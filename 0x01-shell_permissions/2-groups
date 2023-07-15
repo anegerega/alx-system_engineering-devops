@@ -1,0 +1,4 @@
+#!/bin/bash
+username=$(id -un)
+groups=$(id -Gn $username)
+echo "$username $groups"
